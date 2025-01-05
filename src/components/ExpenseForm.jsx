@@ -4,6 +4,9 @@ export default function ExpenseForm({onAddExpense}) {
 
   const [title, setTitle] = React.useState('')
   const [amount, setAmount] = React.useState('')
+  
+ 
+
   const submitHandler=(e)=>{
     e.preventDefault();
     if(title && amount){
