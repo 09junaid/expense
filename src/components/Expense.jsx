@@ -3,11 +3,6 @@ import { useState,useEffect } from 'react'
 import ExpenseForm from './ExpenseForm'
 import ExpenseList from './ExpenseList'
 import CurrentExpense from './CurrentExpense'
-
-  // const [isExpenseRecords,setisExpenseRecords]=useState(()=>{
-  //   const rawData=localStorage.getItem(expensekey);
-  //   return JSON.parse(rawData) || []
-  // })
   const expenseKey = 'expenses';
   const balanceKey = 'balance';
   const expenseAmountKey = 'expense';
